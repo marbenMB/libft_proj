@@ -33,8 +33,8 @@ all : $(NAME)
 $(NAME) : $(OBJECT) libft.h
 	ar rc $(NAME) $(OBJECT) 
 
-bonus : $(BONUS_OBJECT)
-	ar rc $(NAME) $(BONUS_OBJECT)
+bonus : $(OBJECT) $(BONUS_OBJECT)
+	ar rc $(NAME) $(OBJECT) $(BONUS_OBJECT)
 
 clean :
 	rm -f $(OBJECT) $(BONUS_OBJECT)
