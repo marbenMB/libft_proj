@@ -36,17 +36,25 @@ run :
 	- make
 ![making](images/Screen%20Shot%202022-05-03%20at%2014.10.20.png)
 in terminal to make the mandatory part or :
-	- make bonus
+
+	make bonus
+
 ![making_bonus](images/Screen%20Shot%202022-05-03%20at%2014.10.47.png)
 to make both mandatory and bonus parts at the same time.
 
 In your program include the libft header :
-	- #include "libft.h"
+
+	#include "libft.h"
+
 and compile your program adding the library :
-	- gcc program.c libft.a
+
+	gcc program.c libft.a
 
 ## Clean the object or clean all :
 clean only objects :
-	- make clean
+
+	make clean
+
 clean all :
-	- make fclean
+
+	make fclean
