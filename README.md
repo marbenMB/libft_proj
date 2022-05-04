@@ -33,7 +33,9 @@ It will contain a lot of general purpose functions your programs will rely upon.
 ## How to use :
 
 run :
-	- make
+
+	make
+
 ![making](images/Screen%20Shot%202022-05-03%20at%2014.10.20.png)
 in terminal to make the mandatory part or :
 
